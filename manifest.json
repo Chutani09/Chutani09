@@ -1,0 +1,99 @@
+{
+
+  "short_name": "สภาพอากาศ",
+
+  "name": "สภาพอากาศ: ฉันต้องการร่มไหม",
+
+  "ไอคอน": [
+
+    {
+
+      "src": "/images/icons-192.png",
+
+      "type": "image/png",
+
+      "ขนาด": "192x192"
+
+    },
+
+    {
+
+      "src": "/images/icons-512.png",
+
+      "type": "image/png",
+
+      "ขนาด": "512x512"
+
+    }
+
+  ],
+
+  "start_url": "/?source=pwa",
+
+  "background_color": "#3367D6",
+
+  "display": "สแตนด์อโลน",
+
+  "ขอบเขต": "/",
+
+  "theme_color": "#3367D6",
+
+  "ทางลัด": [
+
+    {
+
+      "name": "วันนี้อากาศเป็นอย่างไรบ้าง",
+
+      "short_name": "วันนี้",
+
+      "description": "ดูข้อมูลสภาพอากาศสำหรับวันนี้",
+
+      "url": "/today?source=pwa",
+
+      "ไอคอน": [{ "src": "/images/today.png", "ขนาด": "192x192" }]
+
+    },
+
+    {
+
+      "name": "พรุ่งนี้อากาศเป็นอย่างไร",
+
+      "short_name": "พรุ่งนี้",
+
+      "description": "ดูข้อมูลสภาพอากาศสำหรับวันพรุ่งนี้",
+
+      "url": "/tomorrow?source=pwa",
+
+      "ไอคอน": [{ "src": "/images/tomorrow.png", "ขนาด": "192x192" }]
+
+    }
+
+  ],
+
+  "description": "ข้อมูลพยากรณ์อากาศ",
+
+  "ภาพหน้าจอ": [
+
+    {
+
+      "src": "/images/screenshot1.png",
+
+      "type": "image/png",
+
+      "ขนาด": "540x720"
+
+    },
+
+    {
+
+      "src": "/images/screenshot2.jpg",
+
+      "type": "image/jpg",
+
+      "sizes": "540x720"
+
+    }
+
+  ]
+
+}
